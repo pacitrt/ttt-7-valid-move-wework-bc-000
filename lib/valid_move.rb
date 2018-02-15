@@ -5,7 +5,7 @@
 
 def valid_move?(board, index)
   if index.between?(0,8) && !position_taken?(board, index)
-    return board[index] = input
+    return board[index]
   else
     return nil or false
 end
